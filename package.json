@@ -1,0 +1,29 @@
+{
+  "name": "memobird-receipt",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k -n web,printer -c cyan,magenta \"vite\" \"tsx watch server/index.ts\"",
+    "start": "npm run dev",
+    "build": "tsc -b && vite build",
+    "check": "tsc -b --pretty false"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "iconv-lite": "^0.7.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "^5.1.1",
+    "concurrently": "^9.2.1",
+    "tsx": "^4.20.6",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.1"
+  }
+}

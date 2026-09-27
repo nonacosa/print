@@ -1,0 +1,49 @@
+[
+  {
+    "id": "123-noodle",
+    "name": "123 有面馆",
+    "address": "附近生活街 12 号",
+    "phone": "",
+    "items": [
+      { "id": "beef-noodle", "name": "招牌牛肉面", "priceCents": 1800, "category": "main", "maxQuantity": 1 },
+      { "id": "large-beef-noodle", "name": "大碗牛肉面", "priceCents": 2200, "category": "main", "maxQuantity": 1 },
+      { "id": "braised-egg", "name": "卤蛋", "priceCents": 100, "category": "addon", "maxQuantity": 2 },
+      { "id": "tofu-skin", "name": "豆皮", "priceCents": 100, "category": "addon", "maxQuantity": 1 },
+      { "id": "kelp", "name": "海带", "priceCents": 200, "category": "side", "maxQuantity": 1 },
+      { "id": "sausage", "name": "烤肠", "priceCents": 300, "category": "side", "maxQuantity": 1 },
+      { "id": "chicken-leg", "name": "卤鸡腿", "priceCents": 700, "category": "side", "maxQuantity": 1 },
+      { "id": "soy-milk", "name": "冰豆浆", "priceCents": 400, "category": "drink", "maxQuantity": 1 }
+    ]
+  },
+  {
+    "id": "alley-noodle",
+    "name": "巷口老汤面",
+    "address": "新民路 7 号",
+    "phone": "",
+    "items": [
+      { "id": "pork-noodle", "name": "雪菜肉丝面", "priceCents": 1900, "category": "main", "maxQuantity": 1 },
+      { "id": "rib-noodle", "name": "红烧排骨面", "priceCents": 2300, "category": "main", "maxQuantity": 1 },
+      { "id": "half-egg", "name": "半份卤蛋", "priceCents": 50, "category": "addon", "maxQuantity": 1 },
+      { "id": "tofu-knot", "name": "百叶结", "priceCents": 150, "category": "addon", "maxQuantity": 2 },
+      { "id": "greens", "name": "烫青菜", "priceCents": 300, "category": "side", "maxQuantity": 1 },
+      { "id": "duck-blood", "name": "卤鸭血", "priceCents": 400, "category": "side", "maxQuantity": 1 },
+      { "id": "plum-drink", "name": "酸梅汤", "priceCents": 350, "category": "drink", "maxQuantity": 1 },
+      { "id": "cola", "name": "可乐", "priceCents": 400, "category": "drink", "maxQuantity": 1 }
+    ]
+  },
+  {
+    "id": "rice-noodle",
+    "name": "阿春米粉铺",
+    "address": "梧桐巷 23 号",
+    "phone": "",
+    "items": [
+      { "id": "beef-rice-noodle", "name": "牛肉米粉", "priceCents": 2000, "category": "main", "maxQuantity": 1 },
+      { "id": "pork-rice-noodle", "name": "肉酱拌粉", "priceCents": 1800, "category": "main", "maxQuantity": 1 },
+      { "id": "egg", "name": "卤蛋", "priceCents": 100, "category": "addon", "maxQuantity": 2 },
+      { "id": "tofu", "name": "卤豆干", "priceCents": 100, "category": "addon", "maxQuantity": 2 },
+      { "id": "bamboo", "name": "酸笋", "priceCents": 200, "category": "side", "maxQuantity": 1 },
+      { "id": "crispy-pork", "name": "小酥肉", "priceCents": 700, "category": "side", "maxQuantity": 1 },
+      { "id": "herbal-tea", "name": "凉茶", "priceCents": 400, "category": "drink", "maxQuantity": 1 }
+    ]
+  }
+]
